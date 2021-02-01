@@ -276,7 +276,7 @@ sai_status_t stub_host_interface_type_get(_In_ const sai_object_key_t   *key,
     return SAI_STATUS_SUCCESS;
 }
 
-/* Assosiated port or router interface [sai_object_id_t] */
+/* Associated port or router interface [sai_object_id_t] */
 sai_status_t stub_host_interface_rif_port_get(_In_ const sai_object_key_t   *key,
                                               _Inout_ sai_attribute_value_t *value,
                                               _In_ uint32_t                  attr_index,
@@ -296,7 +296,7 @@ sai_status_t stub_host_interface_rif_port_get(_In_ const sai_object_key_t   *key
 }
 
 /* Name [char[HOST_INTERFACE_NAME_SIZE]] (MANDATORY_ON_CREATE)
- * The maximum number of charactars for the name is HOST_INTERFACE_NAME_SIZE - 1 since
+ * The maximum number of characters for the name is HOST_INTERFACE_NAME_SIZE - 1 since
  * it needs the terminating null byte ('\0') at the end.  */
 sai_status_t stub_host_interface_name_get(_In_ const sai_object_key_t   *key,
                                           _Inout_ sai_attribute_value_t *value,

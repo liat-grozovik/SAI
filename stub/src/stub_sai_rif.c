@@ -329,8 +329,8 @@ sai_status_t stub_rif_admin_set(_In_ const sai_object_key_t *key, _In_ const sai
 
 /* Virtual router id [sai_object_id_t] */
 /* Type [sai_router_interface_type_t] */
-/* Assosiated Port or Lag object id [sai_object_id_t] */
-/* Assosiated Vlan [sai_vlan_id_t] */
+/* Associated Port or Lag object id [sai_object_id_t] */
+/* Associated Vlan [sai_vlan_id_t] */
 /* MAC Address [sai_mac_t] */
 /* MTU [uint32_t] */
 sai_status_t stub_rif_attrib_get(_In_ const sai_object_key_t   *key,
